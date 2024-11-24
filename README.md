@@ -41,6 +41,7 @@ If our survey is useful for your research, please kindly cite our [paper](https:
 | Gemma | 2B; 7B | 2024.2 | Pre-train | Generic | | [HF](https://huggingface.co/collections/google/gemma-release-65d5efbccdbb8c4202ec078b) | [Paper](https://arxiv.org/abs/2403.08295) |
 | Gemma 2 | 2B; 9B; 27B | 2024.7 | Pre-train | Generic | | [HF](https://huggingface.co/collections/google/gemma-2-release-667d6600fd5220e7b967f315) | [Paper](https://arxiv.org/abs/2408.00118) |
 | H2O-Danube3 | 500M; 4B | 2024.7 | Pre-train | Generic | | [HF](https://huggingface.co/collections/h2oai/h2o-danube3-6687a993641452457854c609) | [Paper](https://arxiv.org/abs/2407.09276) |
+| LLM-Neo | 1B | 2024.11 | Continous Training | Generic | | [HF](https://huggingface.co/yang31210999/Llama-3.2-1B-Instruct-Neo-BAAI-10k) | [Paper](https://arxiv.org/pdf/2411.06839) |
 | Fox-1 | 1.6B | 2024.6 | Pre-train | Generic | | [HF](https://huggingface.co/tensoropera/Fox-1-1.6B) | [Blog](https://blog.tensoropera.ai/tensoropera-unveils-fox-foundation-model-a-pioneering-open-source-slm-leading-the-way-against-tech-giants/) |
 | Rene | 1.3B | 2024.5 | Pre-train | Generic | | [HF](https://huggingface.co/cartesia-ai/Rene-v0.1-1.3b-pytorch) | [Paper](https://cartesia.ai/blog/on-device) |
 | MiniCPM | 1.2B; 2.4B | 2024.4 | Pre-train | Generic | [Github](https://github.com/OpenBMB/MiniCPM-V) | [HF](https://huggingface.co/collections/openbmb/minicpm-65d48bf958302b9fd25b698f) | [Paper](https://arxiv.org/abs/2404.06395) |
@@ -125,6 +126,7 @@ If our survey is useful for your research, please kindly cite our [paper](https:
 7. <u>RLHF</u>: **"Training language models to follow instructions with human feedback"**. *Long Ouyang et al.* 2022. [[Paper](https://arxiv.org/abs/2203.02155)]
 8. <u>MobileBERT</u>: **"MobileBERT: a Compact Task-Agnostic BERT for Resource-Limited Devices"**. *Zhiqing Sun et al.* ACL 2020. [[Paper](https://arxiv.org/abs/2004.02984)] [[Github](https://github.com/google-research/google-research/tree/master/mobilebert)] [[HuggingFace](https://huggingface.co/docs/transformers/en/model_doc/mobilebert)]
 9. **Language models are unsupervised multitask learners.** *Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, Ilya Sutskever, et al.* OpenAI Blog, 2019. [[Paper]](https://insightcivic.s3.us-east-1.amazonaws.com/language-models.pdf)
+10. **Weight-inherited distillation for task-agnostic bert compression** *Taiqiang Wu, Cheng Hou, Shanshan Lao, Jiayi Li, Ngai Wong, Zhe Zhao, Yujiu Yang* NAACL, 2024, [[Paper]](https://arxiv.org/abs/2305.09098) [[Code]](https://github.com/wutaiqiang/WID-NAACL2024)
 
 #### Data quality in KD
 
@@ -139,6 +141,7 @@ If our survey is useful for your research, please kindly cite our [paper](https:
 1. <u>GKD</u>: **"On-Policy Distillation of Language Models: Learning from Self-Generated Mistakes"**. *Rishabh Agarwal et al.* ICLR 2024. [[Paper](https://arxiv.org/abs/2306.13649)] 
 2. <u>DistilLLM</u>: **"DistiLLM: Towards Streamlined Distillation for Large Language Models"**. *Jongwoo Ko et al.* ICML 2024. [[Paper](https://arxiv.org/abs/2402.03898)] [[Github](https://github.com/jongwooko/distillm)]
 3. <u>Adapt-and-Distill</u>: **"Adapt-and-Distill: Developing Small, Fast and Effective Pretrained Language Models for Domains"**. *Yunzhi Yao et al.* ACL2021. [[Paper](https://arxiv.org/abs/2106.13474)] [[Github](https://github.com/microsoft/unilm/tree/master/adalm)] 
+4. <u>AKL</u>: **"Rethinking kullback-leibler divergence in knowledge distillation for large language models"**. *Taiqiang Wu et al.* Arxiv 2024. [[Paper](https://arxiv.org/pdf/2404.02657)] [[Github](https://github.com/wutaiqiang/LLM_KD_AKL)]
 
 #### Quantization
 
