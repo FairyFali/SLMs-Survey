@@ -63,7 +63,7 @@ If our survey is useful for your research, please kindly cite our [paper](https:
 | GPT-Neo | 125M; 350M; 1.3B; 2.7B | 2021.5 | Pre-train | Generic  | [Github](https://github.com/EleutherAI/gpt-neo/tree/master) |  | [Paper](https://zenodo.org/records/5297715) |
 | Megatron-gpt2 | 355M; 2.5B; 8.3B | 2019.9  | Pre-train | Generic| [Github](https://github.com/NVIDIA/Megatron-LM)  |  | [Paper](https://arxiv.org/abs/1909.08053), [Blog](https://huggingface.co/docs/accelerate/en/usage_guides/megatron_lm) |
 | MINITRON | 4B; 8B; 15B | 2024.7 | Pruning and Distillation | Generic | [Github](https://github.com/NVlabs/Minitron)  | [HF](https://huggingface.co/nvidia/Llama-3.1-Minitron-4B-Width-Base)| [Paper](https://arxiv.org/abs/2407.14679) |
-| MiniMix | 8B | 2024.7 | Pre-train | Generic | [Github](https://github.com/GeneZC/MiniMA)  | [HF](https://huggingface.co/GeneZC/MiniMix-2_4x3B)| [Paper](https://arxiv.org/abs/2311.07052) |
+| MiniMix | 7B | 2024.7 | Pre-train | Generic | [Github](https://github.com/GeneZC/MiniMA)  | [HF](https://huggingface.co/GeneZC/MiniMix-2_4x3B)| [Paper](https://arxiv.org/abs/2311.07052) |
 | MiniMA-2 | 1B; 3B | 2023.12 | Pre-train | Generic | [Github](https://github.com/GeneZC/MiniMA)  | [HF](https://huggingface.co/GeneZC/MiniMA-2-3B)| [Paper](https://arxiv.org/abs/2311.07052) |
 | MiniMA | 3B | 2023.11 | Pruning and Distillation | Generic | [Github](https://github.com/GeneZC/MiniMA)  | [HF](https://huggingface.co/GeneZC/MiniMA-3B)| [Paper](https://arxiv.org/abs/2311.07052) |
 | Orca 2 | 7B | 2023.11 | Distillation | Generic | | [HF](https://huggingface.co/microsoft/Orca-2-7b) |[Paper](https://arxiv.org/abs/2311.11045) |
