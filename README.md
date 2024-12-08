@@ -240,13 +240,15 @@ If our survey is useful for your research, please kindly cite our [paper](https:
 
 ### SLMs enhance LLMs
 
-#### SLMs for LLMs Calibration
+#### SLMs for LLM Calibration and Hallucination Detection
 
 1. **Calibrating Large Language Models Using Their Generations Only.** *Dennis Ulmer, Martin Gubri, Hwaran Lee, Sangdoo Yun, Seong Joon Oh*. ACL 2024 Long, [[pdf]](https://aclanthology.org/2024.acl-long.824/) [[code]](https://github.com/parameterlab/apricot)
 2. **Pareto Optimal Learning for Estimating Large Language Model Errors.** *Theodore Zhao, Mu Wei, J. Samuel Preston, Hoifung Poon*. ACL 2024 Long, [[pdf]](https://aclanthology.org/2024.acl-long.566/)
 3. **The Internal State of an LLM Knows When It’s Lying.** *Amos Azaria, Tom Mitchell*. EMNLP 2023 Findings. [[pdf]](https://aclanthology.org/2023.findings-emnlp.68/)
+4. **Small agent can also rock! empowering small language models as hallucination detector.** _Xiaoxue Cheng, Junyi Li, Wayne Xin Zhao, Hongzhi Zhang, Fuzheng Zhang, Di Zhang, Kun Gai, Ji-Rong Wen._ EMNLP 2024 Long. [[pdf]](https://aclanthology.org/2024.emnlp-main.809/)
+5. **Reconfidencing llms from the grouping loss perspective.** _Lihu Chen, Alexandre Perez-Lebel, Fabian M. Suchanek, Gaël Varoquaux._ EMNLP 2024 Findings. [[pdf]](https://aclanthology.org/2024.findings-emnlp.85/)
 
-#### SLMs for LLMs RAG
+#### SLMs for LLM RAG
 
 1. **Small Models, Big Insights: Leveraging Slim Proxy Models To Decide When and What to Retrieve for LLMs.** *Jiejun Tan, Zhicheng Dou, Yutao Zhu, Peidong Guo, Kun Fang, Ji-Rong Wen.* ACL 2024 Long.  [[pdf]](https://aclanthology.org/2024.acl-long.242/) [[code]](https://github.com/plageon/SlimPlm) [[huggingface]](https://huggingface.co/zstanjj/SlimPLM-Query-Rewriting)
 2. **Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection.** *Akari Asai, Zeqiu Wu, Yizhong Wang, Avirup Sil, Hannaneh Hajishirzi.* ICLR 2024 Oral. [[pdf]](https://openreview.net/forum?id=hSyW5go0v8) [[huggingface]](https://huggingface.co/papers/2310.11511) [[code]](https://github.com/AkariAsai/self-rag) [[website]](https://selfrag.github.io/) [[model]](https://huggingface.co/selfrag/selfrag_llama2_7b) [[data]](https://huggingface.co/datasets/selfrag/selfrag_train_data) 
@@ -254,7 +256,30 @@ If our survey is useful for your research, please kindly cite our [paper](https:
 4. **Corrective Retrieval Augmented Generation.** *Shi-Qi Yan, Jia-Chen Gu, Yun Zhu, Zhen-Hua Ling.* arXiv 2024.1. [[pdf]](https://arxiv.org/abs/2401.15884) [[code]](https://github.com/HuskyInSalt/CRAG)
 5. **Self-Knowledge Guided Retrieval Augmentation for Large Language Models.** *Yile Wang, Peng Li, Maosong Sun, Yang Liu.* EMNLP 2023 Findings. [[pdf]](https://aclanthology.org/2023.findings-emnlp.691/) [[code]](https://github.com/THUNLP-MT/SKR)
 6. **In-Context Retrieval-Augmented Language Models.** *Ori Ram, Yoav Levine, Itay Dalmedigos, Dor Muhlgay, Amnon Shashua, Kevin Leyton-Brown, Yoav Shoham.* TACL 2023. [[pdf]](https://aclanthology.org/2023.tacl-1.75/) [[code]](https://github.com/AI21Labs/in-context-ralm)
+7. **RA-ISF: Learning to Answer and Understand from Retrieval Augmentation via Iterative Self-Feedback.** _Liu, Yanming and Peng, Xinyue and Zhang, Xuhong and Liu, Weihao and Yin, Jianwei and Cao, Jiannan and Du, Tianyu._ ACL 2024 Findings. [[pdf]](https://aclanthology.org/2024.findings-acl.281/)
+8. **Less is More: Making Smaller Language Models Competent Subgraph Retrievers for Multi-hop {KGQA}.** _Wenyu Huang, Guancheng Zhou, Hongru Wang, Pavlos Vougiouklis, Mirella Lapata, Jeff Z. Pan._ EMNLP 2024 Findings. [[pdf]](https://aclanthology.org/2024.findings-emnlp.927/)
 
+#### SLMs for LLM Reasoning
+1. _Canwen Xu, Yichong Xu, Shuohang Wang, Yang Liu, Chenguang Zhu, and Julian McAuley._ **Small models are valuable plug-ins for large language models.** ACL 2024 Findings. [[pdf]](https://aclanthology.org/2024.findings-acl.18/)
+2. _Linyi Yang, Shuibai Zhang, Zhuohao Yu, Guangsheng Bao, Yidong Wang, Jindong Wang, Ruochen Xu, Wei Ye, Xing Xie, Weizhu Chen, and Yue Zhang._ **Supervised Knowledge Makes Large Language Models Better In-context Learners.** ICLR 2024 Poster. [[pdf]](https://openreview.net/forum?id=bAMPOUF227)
+3. _Zhuofeng Wu, He Bai, Aonan Zhang, Jiatao Gu, VG Vydiswaran, Navdeep Jaitly, and Yizhe Zhang._  **Divide-or-Conquer? Which Part Should You Distill Your LLM?** EMNLP 2024 Findings. [[pdf]](https://aclanthology.org/2024.findings-emnlp.145/)
+
+#### SLMs for alleviating Copyright and Privacy of LLMs
+1. _Tianlin Li, Qian Liu, Tianyu Pang, Chao Du, Qing Guo, Yang Liu, and Min Lin._ **Purifying large language models by ensembling a small language model.** arXiv 2024. [[pdf]](https://arxiv.org/abs/2402.14845)
+
+#### SLMs for extracting LLM prompts
+1. _Yiming Zhang, Nicholas Carlini, and Daphne Ippolito._ **Effective Prompt Extraction from Language Models.** COLM 2024 [[pdf]](https://openreview.net/forum?id=0o95CVdNuz#discussion)
+2. _Zeyang Sha and Yang Zhang._ Prompt stealing attacks against large language models. arXiv (2024). [[pdf]](https://arxiv.org/abs/2402.12959)
+3. _Collin Zhang, John X Morris, and Vitaly Shmatikov._ **Extracting Prompts by Inverting LLM Outputs.** [[pdf]](https://aclanthology.org/2024.emnlp-main.819/)
+
+
+#### SLMs for Fine-tuning LLMs
+1. _Eric Mitchell, Rafael Rafailov, Archit Sharma, Chelsea Finn, and Christopher D Manning._ 2024. **An Emulator for Fine-tuning Large Language Models using Small Language Models.** ICLR 2024. [[pdf]](https://openreview.net/forum?id=Eo7kv0sllr)
+2. _Alisa Liu, Xiaochuang Han, Yizhong Wang, Yulia Tsvetkov, Yejin Choi, and Noah A Smith._ 2024. **Tuning language models by proxy.** COLM 2024. [[pdf]](https://openreview.net/forum?id=dribhnhm1i)
+3. _Dheeraj Mekala, Alex Nguyen, and Jingbo Shang._ 2024. **Smaller language models are capable of selecting instruction-tuning training data for larger language models.** ACL 2024 Findings. [[pdf]](https://aclanthology.org/2024.findings-acl.623/)
+4. _Yongheng Deng, Ziqing Qiao, Ju Ren, Yang Liu, and Yaoxue Zhang._ 2023. **Mutual enhancement of large and small language models with cross-silo knowledge transfer.** arXiv 2023. [[pdf]](https://arxiv.org/abs/2312.05842)
+5. **SmallToLarge (S2L): Scalable Data Selection for Fine-tuning Large Language Models by Summarizing Training Trajectories of Small Models.** _Yu Yang · Siddhartha Mishra · Jeffrey Chiang · Baharan Mirzasoleiman._ NIPS 2024 Poster. [[pdf]](https://neurips.cc/virtual/2024/poster/95679)
+6. **Weak-to-Strong Search: Align Large Language Models via Searching over Small Language Models.** _Zhanhui Zhou · Zhixuan Liu · Jie Liu · Zhichen Dong · Chao Yang · Yu Qiao._ NIPS 2024 Poster. [[pdf]](https://neurips.cc/virtual/2024/poster/94341)
 
 
 ## Star History
