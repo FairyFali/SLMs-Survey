@@ -281,6 +281,17 @@ If our survey is useful for your research, please kindly cite our [paper](https:
 5. **SmallToLarge (S2L): Scalable Data Selection for Fine-tuning Large Language Models by Summarizing Training Trajectories of Small Models.** _Yu Yang · Siddhartha Mishra · Jeffrey Chiang · Baharan Mirzasoleiman._ NIPS 2024 Poster. [[pdf]](https://neurips.cc/virtual/2024/poster/95679)
 6. **Weak-to-Strong Search: Align Large Language Models via Searching over Small Language Models.** _Zhanhui Zhou · Zhixuan Liu · Jie Liu · Zhichen Dong · Chao Yang · Yu Qiao._ NIPS 2024 Poster. [[pdf]](https://neurips.cc/virtual/2024/poster/94341)
 
+#### SLMs for LLM safety
+1. **Llama Guard: LLM-based Input-Output Safeguard for Human-AI Conversations.** _Meta_ arXiv 2024 [[pdf]](https://arxiv.org/abs/2312.06674)
+2. **SLM as Guardian: Pioneering AI Safety with Small Language Model.** _Ohjoon Kwon, Donghyeon Jeon, Nayoung Choi, Gyu-Hwung Cho, Hwiyeol Jo, Changbong Kim, Hyunwoo Lee, Inho Kang, Sun Kim, Taiwoo Park._ EMNLP 2024. [[pdf]](https://aclanthology.org/2024.emnlp-industry.99/)
+
+#### SLM for LLM Evaluation
+1. _Kun Zhao, Bohao Yang, Chen Tang, Chenghua Lin, and Liang Zhan_. 2024. **SLIDE: A Framework Integrating Small and Large Language Models for Open-Domain Dialogues Evaluation**. ACL 2024 Findings. [[pdf]](https://aclanthology.org/2024.findings-acl.911/)
+2. **Semantic uncertainty: Linguistic invariances for uncertainty estimation in natural language generation.** _Lorenz Kuhn, Yarin Gal, Sebastian Farquhar._ ICLR 2023. [[pdf]](https://openreview.net/forum?id=VD-AYtP0dve)
+3. **Selfcheckgpt: Zero-resource black-box hallucination detection for generative large language models.** _Potsawee Manakul, Adian Liusie, Mark Gales._ EMNLP 2023 Main. [[pdf]](https://aclanthology.org/2023.emnlp-main.557/)
+4. **Proxylm: Predicting language model performance on multilingual tasks via proxy models.** _David Anugraha, Genta Indra Winata, Chenyue Li, Patrick Amadeus Irawan, En-Shiun Annie Lee._ arXiv 2024. [[pdf]](https://arxiv.org/abs/2406.09334)
+5. **Factscore: Fine-grained atomic evaluation of factual precision in long-form text generation.** _Sewon Min, Kalpesh Krishna, Xinxi Lyu, Mike Lewis, Wen-tau Yih, Pang Koh, Mohit Iyyer, Luke Zettlemoyer, Hannaneh Hajishirzi._ EMNLP 2023 Main. [[pdf]](https://aclanthology.org/2023.emnlp-main.741/)
+6. **Look before you leap: An exploratory study of uncertainty measurement for large language models.** _Yuheng Huang, Jiayang Song, Zhijie Wang, Shengming Zhao, Huaming Chen, Felix Juefei-Xu, Lei Ma_ arXiv 2023. [[pdf]](https://arxiv.org/abs/2307.10236)
 
 ## Star History
 
