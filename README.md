@@ -1,4 +1,4 @@
-# SLM Survey
+# SLMs Survey
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![](https://img.shields.io/badge/PaperNumber-152-brightgreen) ![](https://img.shields.io/badge/PRs-Welcome-red)
 
@@ -26,7 +26,7 @@ If our survey is useful for your research, please kindly cite our [paper](https:
 ![Overview of Small Language Models](images/overview_structure.png)
 
 ## Timeline of SLMs
-![Timeline of Small Language Models](images/timeline.png)
+![Timeline of Small Language Models](images/overview_of_small_language_models.PNG)
 
 ## SLMs Paper List
 ### Existing SLMs
