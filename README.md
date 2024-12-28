@@ -8,8 +8,8 @@ This repo includes the papers discussed in our latest survey paper on small lang
 :book: Read the full paper here: [Paper Link](https://arxiv.org/abs/2411.03350)
 
 ## News
-* 2024/11/04: The first version of our survey is on Arxiv!
 * 2024/12/28: The second version of our survey is on Arxiv!
+* 2024/11/04: The first version of our survey is on Arxiv!
 
 ## Reference
 If our survey is useful for your research, please kindly cite our [paper](https://arxiv.org/abs/2411.03350):
@@ -34,6 +34,7 @@ If our survey is useful for your research, please kindly cite our [paper](https:
 
 | Model | #Params | Date | Paradigm | Domain | Code | HF Model | Paper/Blog |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |---- |
+| PhoneLM | 0.5B; 1.5B | 2024.11 | Pre-train | Generic | [Github](https://github.com/UbiquitousLearning/PhoneLM)  | [HF](https://huggingface.co/mllmTeam/PhoneLM-0.5B) | [Paper]([https://huggingface.co/papers/2411.05046](https://arxiv.org/abs/2411.05046)) |
 | Llama 3.2 | 1B; 3B | 2024.9 | Pre-train | Generic | [Github](https://github.com/meta-llama/llama-models)  | [HF](https://huggingface.co/collections/meta-llama/llama-32-66f448ffc8c32f949b04c8cf) | [Blog](https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/) |
 | Qwen 1 | 1.8B; 7B; 14B; 72B | 2023.12 | Pre-train | Generic | [Github](https://github.com/QwenLM/Qwen) | [HF](https://huggingface.co/Qwen) | [Paper](https://arxiv.org/abs/2309.16609) |
 | Qwen 1.5 | 0.5B; 1.8B; 4B; 7B; 14B; 32B; 72B | 2024.2 | Pre-train | Generic | [Github](https://github.com/QwenLM/Qwen) | [HF](https://huggingface.co/Qwen) | [Paper](https://arxiv.org/abs/2309.16609) |
@@ -41,6 +42,7 @@ If our survey is useful for your research, please kindly cite our [paper](https:
 | Qwen 2.5 | 0.5B; 1.5B; 3B; 7B; 14B; 32B; 72B | 2024.9 | Pre-train | Generic | [Github](https://github.com/QwenLM/Qwen) | [HF](https://huggingface.co/Qwen) | [Paper](https://arxiv.org/abs/2407.10671) |
 | Gemma | 2B; 7B | 2024.2 | Pre-train | Generic | | [HF](https://huggingface.co/collections/google/gemma-release-65d5efbccdbb8c4202ec078b) | [Paper](https://arxiv.org/abs/2403.08295) |
 | Gemma 2 | 2B; 9B; 27B | 2024.7 | Pre-train | Generic | | [HF](https://huggingface.co/collections/google/gemma-2-release-667d6600fd5220e7b967f315) | [Paper](https://arxiv.org/abs/2408.00118) |
+| SmolLM | 135M; 360M; 1.7B | 2024.7 | Pre-train | Generic | [Github](https://github.com/huggingface/smollm) | [HF](https://huggingface.co/collections/HuggingFaceTB/smollm-6695016cad7167254ce15966) | [Blog](https://huggingface.co/blog/smollm) |
 | H2O-Danube3 | 500M; 4B | 2024.7 | Pre-train | Generic | | [HF](https://huggingface.co/collections/h2oai/h2o-danube3-6687a993641452457854c609) | [Paper](https://arxiv.org/abs/2407.09276) |
 | LLM-Neo | 1B | 2024.11 | Continous Training | Generic | | [HF](https://huggingface.co/yang31210999/Llama-3.2-1B-Instruct-Neo-BAAI-10k) | [Paper](https://arxiv.org/pdf/2411.06839) |
 | Fox-1 | 1.6B | 2024.6 | Pre-train | Generic | | [HF](https://huggingface.co/tensoropera/Fox-1-1.6B) | [Blog](https://blog.tensoropera.ai/tensoropera-unveils-fox-foundation-model-a-pioneering-open-source-slm-leading-the-way-against-tech-giants/) |
@@ -60,6 +62,7 @@ If our survey is useful for your research, please kindly cite our [paper](https:
 | StableLM 2 | 1.6B | 2024.2 | Pre-train | Generic | [Github](https://github.com/Stability-AI/StableLM) | [HF](https://huggingface.co/stabilityai/stablelm-2-1_6b) | [Paper](https://arxiv.org/abs/2402.17834) |
 | Cerebras-GPT | 111M-13B | 2023.4 | Pre-train | Generic | | [HF](https://huggingface.co/collections/cerebras/cerebras-gpt-66c623297a2370b8e670e0a1) | [Paper](https://arxiv.org/abs/2304.03208) |
 | BLOOM, BLOOMZ | 560M; 1.1B; 1.7B; 3B; 7.1B; 176B | 2022.11 | Pre-train | Generic | | [HF](https://huggingface.co/bigscience) | [Paper](https://arxiv.org/abs/2211.05100) |
+| Galactica | 125M; 1.3B; 6.7B | 2022.11 | Pre-train | Scientific | | [HF](https://huggingface.co/NuclearnAI/SPARK-mini-base) | [Paper](https://arxiv.org/abs/2211.09085) |
 | OPT | 125M; 350M; 1.3B; 2.7B; 5.7B | 2022.5 | Pre-train | Generic | | [HF](https://huggingface.co/facebook/opt-350m) | [Paper](https://arxiv.org/abs/2205.01068) |
 | XGLM | 1.7B; 2.9B; 7.5B | 2021.12 | Pre-train | Generic| [Github](https://github.com/facebookresearch/fairseq/tree/main/examples/xglm)  | [HF](https://huggingface.co/facebook/xglm-564M) | [Paper](https://aclanthology.org/2022.emnlp-main.616) |
 | GPT-Neo | 125M; 350M; 1.3B; 2.7B | 2021.5 | Pre-train | Generic  | [Github](https://github.com/EleutherAI/gpt-neo/tree/master) |  | [Paper](https://zenodo.org/records/5297715) |
@@ -74,6 +77,7 @@ If our survey is useful for your research, please kindly cite our [paper](https:
 | Specialized FlanT5 | 250M; 760M; 3B | 2023.1 | Instruction Tuning | Generic (math) | [Github](https://github.com/google-research/t5x/blob/main/docs/models.md#flan-t5-checkpoints)  | - | [Paper](https://proceedings.mlr.press/v202/fu23d.html) |
 | FlanT5 | 80M; 250M; 780M; 3B | 2022.10 | Instruction Tuning | Generic | [Gihub](https://github.com/google-research/t5x/blob/main/docs/models.md#flan-t5-checkpoints) | [HF](https://huggingface.co/google/flan-t5-xxl) | [Paper](https://arxiv.org/abs/2210.11416) |
 | T5 | 60M; 220M; 770M; 3B; 11B | 2019.9 | Pre-train | Generic | [Github](https://github.com/google-research/text-to-text-transfer-transformer)   | [HF](https://huggingface.co/google/t5-v1_1-base) | [Paper](https://arxiv.org/abs/1910.10683) |
+
 
 <!--
 ## Table of Contents
