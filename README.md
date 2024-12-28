@@ -4,11 +4,12 @@
 
 
 ## A Comprehensive Survey of Small Language Models: Technology, On-Device Applications, Efficiency, Enhancements for LLMs, and Trustworthiness
-This repo include the papers discussed in our latest survey paper on small language models.    
+This repo includes the papers discussed in our latest survey paper on small language models.    
 :book: Read the full paper here: [Paper Link](https://arxiv.org/abs/2411.03350)
 
 ## News
 * 2024/11/04: The first version of our survey is on Arxiv!
+* 2024/12/28: The second version of our survey is on Arxiv!
 
 ## Reference
 If our survey is useful for your research, please kindly cite our [paper](https://arxiv.org/abs/2411.03350):
@@ -106,6 +107,10 @@ If our survey is useful for your research, please kindly cite our [paper](https:
 1. Transformer: **Attention is all you need.** *Ashish Vaswani*. NeurIPS 2017. 
 2. Mamba 1: **Mamba: Linear-time sequence modeling with selective state spaces.** *Albert Gu and Tri Dao*. COLM 2024.  [[Paper]](https://openreview.net/forum?id=tEYskw1VY2#discussion).
 3. Mamba 2: **Transformers are SSMs: Generalized models and efficient algorithms through structured state space duality.** *Tri Dao and Albert Gu*. ICML 2024. [[Paper]](https://openreview.net/forum?id=ztn8FCR1td) [[Code]](https://github.com/state-spaces/mamba)
+4. **Hymba: A Hybrid-head Architecture for Small Language Models.** *Xin Dong, Yonggan Fu, Shizhe Diao, Wonmin Byeon, Zijia Chen, Ameya Sunil Mahabaleshwarkar, Shih-Yang Liu, Matthijs Van Keirsbilck, Min-Hung Chen, Yoshi Suhara, Yingyan Lin, Jan Kautz, Pavlo Molchanov*. arXiv 2024.11. [[Paper]](https://arxiv.org/abs/2411.13676) [[HF]](https://huggingface.co/nvidia/Hymba-1.5B-Base)
+5. **xLSTM: Extended Long Short-Term Memory.** *Maximilian Beck, Korbinian Pöppel, Markus Spanring, Andreas Auer, Oleksandra Prudnikova, Michael Kopp, Günter Klambauer, Johannes Brandstetter, Sepp Hochreiter*. arXiv 2024.12. [[Paper]](https://arxiv.org/abs/2405.04517) [[Code]](https://github.com/NX-AI/xlstm)
+
+
 
 
 ### Enhancement for SLM
@@ -292,6 +297,22 @@ If our survey is useful for your research, please kindly cite our [paper](https:
 4. **Proxylm: Predicting language model performance on multilingual tasks via proxy models.** _David Anugraha, Genta Indra Winata, Chenyue Li, Patrick Amadeus Irawan, En-Shiun Annie Lee._ arXiv 2024. [[pdf]](https://arxiv.org/abs/2406.09334)
 5. **Factscore: Fine-grained atomic evaluation of factual precision in long-form text generation.** _Sewon Min, Kalpesh Krishna, Xinxi Lyu, Mike Lewis, Wen-tau Yih, Pang Koh, Mohit Iyyer, Luke Zettlemoyer, Hannaneh Hajishirzi._ EMNLP 2023 Main. [[pdf]](https://aclanthology.org/2023.emnlp-main.741/)
 6. **Look before you leap: An exploratory study of uncertainty measurement for large language models.** _Yuheng Huang, Jiayang Song, Zhijie Wang, Shengming Zhao, Huaming Chen, Felix Juefei-Xu, Lei Ma_ arXiv 2023. [[pdf]](https://arxiv.org/abs/2307.10236)
+
+
+
+### Synergy between SLMs and LLMs
+1. **CoGenesis: A Framework Collaborating Large and Small Language Models for Secure Context-Aware Instruction Following.** *Kaiyan Zhang, Jianyu Wang, Ermo Hua, Biqing Qi, Ning Ding, Bowen Zhou.* arXiv 2024.6..  [[pdf]](https://arxiv.org/abs/2403.03129)
+2. **When Large Language Model Agents Meet 6G Networks: Perception, Grounding, and Alignment.** *Minrui Xu; Dusit Niyato; Jiawen Kang; Zehui Xiong; Shiwen Mao; Zhu Han.* IEEE Wireless Communications, 2024.  [[pdf]](https://ieeexplore.ieee.org/abstract/document/10648594)
+3. **Think Big, Generate Quick: LLM-to-SLM for Fast Autoregressive Decoding.** *Benjamin Bergner, Andrii Skliar, Amelie Royer, Tijmen Blankevoort, Yuki Asano, Babak Ehteshami Bejnordi.* arXiv, 2024.7.  [[pdf]](https://arxiv.org/abs/2402.16844)
+4. **Synergy-of-Thoughts: Eliciting Efficient Reasoning in Hybrid Language Models.** *Yu Shang, Yu Li, Fengli Xu, Yong Li.* arXiv, 2024.8.  [[pdf]](https://arxiv.org/abs/2402.02563)
+5. **Hybrid SLM and LLM for Edge-Cloud Collaborative Inference.** *Zixu Hao, Huiqiang Jiang, Shiqi Jiang, Ju Ren, Ting Cao.* EdgeFM 2024.  [[pdf]](https://dl.acm.org/doi/abs/10.1145/3662006.3662067)
+6. **LLMCad: Fast and Scalable On-device Large Language Model Inference.** *Daliang Xu, Wangsong Yin, Xin Jin, Ying Zhang, Shiyun Wei, Mengwei Xu, Xuanzhe Liu.* arXiv 2023.9.  [[pdf]](https://arxiv.org/abs/2309.04255)
+7. **DSPy: Compiling Declarative Language Model Calls into Self-Improving Pipelines.** *Omar Khattab, Arnav Singhvi, Paridhi Maheshwari, Zhiyuan Zhang, Keshav Santhanam, Sri Vardhamanan, Saiful Haq, Ashutosh Sharma, Thomas T. Joshi, Hanna Moazam, Heather Miller, Matei Zaharia, Christopher Potts.* arXiv 2023.10.  [[pdf]](https://arxiv.org/abs/2310.03714)
+8. **Large Language Model Is Not a Good Few-shot Information Extractor, but a Good Reranker for Hard Samples!.** *Yubo Ma, Yixin Cao, YongChing Hong, Aixin Sun.* arXiv 2023.10.  [[pdf]](https://arxiv.org/abs/2303.08559)
+9. **Mutual Enhancement of Large and Small Language Models with Cross-Silo Knowledge Transfer.** *Yongheng Deng, Ziqing Qiao, Ju Ren, Yang Liu, Yaoxue Zhang.* arXiv 2023.12.  [[pdf]](https://arxiv.org/abs/2312.05842) 
+10. **Small LLMs Are Weak Tool Learners: A Multi-LLM Agent.** *Weizhou Shen, Chenliang Li, Hongzhan Chen, Ming Yan, Xiaojun Quan, Hehong Chen, Ji Zhang, Fei Huang.* EMNLP 2024 Main.  [[pdf]](https://aclanthology.org/2024.emnlp-main.929/) 
+11. **Synergizing Large Language Models and Pre-Trained Smaller Models for Conversational Intent Discovery.** *Jinggui Liang, Lizi Liao, Hao Fei, Jing Jiang.* ACL 2024 Findings.  [[pdf]](https://aclanthology.org/2024.findings-acl.840/) 
+12. **Improving Large Models with Small models: Lower Costs and Better Performance.** *Dong Chen, Shuo Zhang, Yueting Zhuang, Siliang Tang, Qidong Liu, Hua Wang, Mingliang Xu.* arXiv 2024.6.  [[pdf]](https://arxiv.org/abs/2406.15471)
 
 ## Star History
 
