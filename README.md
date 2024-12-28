@@ -148,7 +148,7 @@ If our survey is useful for your research, please kindly cite our [paper](https:
 4. **Large Language Models Can Self-Improve.** *Jiaxin Huang, Shixiang Shane Gu, Le Hou, Yuexin Wu, Xuezhi Wang, Hongkun Yu, and Jiawei Han.* EMNLP 2023. [[Paper]](https://aclanthology.org/2023.emnlp-main.67/) 
 5. **Toward Self-Improvement of LLMs via Imagination, Searching, and Criticizing.** *Ye Tian, Baolin Peng, Linfeng Song, Lifeng Jin, Dian Yu, Haitao Mi, and Dong Yu.* NeurIPS 2024. [[Paper]](https://openreview.net/forum?id=tPdJ2qHkOB) [[Code]](https://github.com/YeTianJHU/AlphaLLM)
 
-#### Distillation for SLM
+#### Distillation for SLMs
 
 
 1. <u>GKD</u>: **"On-Policy Distillation of Language Models: Learning from Self-Generated Mistakes"**. *Rishabh Agarwal et al.* ICLR 2024. [[Paper](https://arxiv.org/abs/2306.13649)] 
@@ -178,7 +178,7 @@ If our survey is useful for your research, please kindly cite our [paper](https:
 
 #### LLM techniques for SLMs
 
-1. <u>Ma et al.</u>: **"Large Language Model Is Not a Good Few-shot Information Extractor, but a Good Reranker for Hard Samples!"**. *Yubo Ma, Yixin Cao, YongChing Hong, Aixin Sun.* EMNLP 2023. [[Paper](https://arxiv.org/abs/2303.08559)] [[Github](https://github.com/mayubo2333/LLM-IE)]
+1. **"Large Language Model Is Not a Good Few-shot Information Extractor, but a Good Reranker for Hard Samples!"**. *Yubo Ma, Yixin Cao, YongChing Hong, Aixin Sun.* EMNLP 2023. [[Paper](https://arxiv.org/abs/2303.08559)] [[Github](https://github.com/mayubo2333/LLM-IE)]
 2. <u>MoQE</u>: **"Mixture of Quantized Experts (MoQE): Complementary Effect of Low-bit Quantization and Robustness"**. *Young Jin Kim, Raffy Fahim, Hany Hassan Awadalla.* 2023. [[Paper](https://arxiv.org/abs/2310.02410)]
 3. <u>SLM-RAG</u>: **"Can Small Language Models With Retrieval-Augmented Generation Replace Large Language Models When Learning Computer Science?"**. *Suqing Liu, Zezhu Yu, Feiran Huang, Yousef Bulbulia, Andreas Bergen, Michael Liut.* ITiCSE 2024. [[Paper](https://dl.acm.org/doi/10.1145/3649217.3653554)] 
 
@@ -316,7 +316,7 @@ If our survey is useful for your research, please kindly cite our [paper](https:
 9. **Mutual Enhancement of Large and Small Language Models with Cross-Silo Knowledge Transfer.** *Yongheng Deng, Ziqing Qiao, Ju Ren, Yang Liu, Yaoxue Zhang.* arXiv 2023.12.  [[pdf]](https://arxiv.org/abs/2312.05842) 
 10. **Small LLMs Are Weak Tool Learners: A Multi-LLM Agent.** *Weizhou Shen, Chenliang Li, Hongzhan Chen, Ming Yan, Xiaojun Quan, Hehong Chen, Ji Zhang, Fei Huang.* EMNLP 2024 Main.  [[pdf]](https://aclanthology.org/2024.emnlp-main.929/) 
 11. **Synergizing Large Language Models and Pre-Trained Smaller Models for Conversational Intent Discovery.** *Jinggui Liang, Lizi Liao, Hao Fei, Jing Jiang.* ACL 2024 Findings.  [[pdf]](https://aclanthology.org/2024.findings-acl.840/) 
-12. **Improving Large Models with Small models: Lower Costs and Better Performance.** *Dong Chen, Shuo Zhang, Yueting Zhuang, Siliang Tang, Qidong Liu, Hua Wang, Mingliang Xu.* arXiv 2024.6.  [[pdf]](https://arxiv.org/abs/2406.15471)
+12. **Improving Large Models with Small Models: Lower Costs and Better Performance.** *Dong Chen, Shuo Zhang, Yueting Zhuang, Siliang Tang, Qidong Liu, Hua Wang, Mingliang Xu.* arXiv 2024.6.  [[pdf]](https://arxiv.org/abs/2406.15471)
 
 ## Star History
 
