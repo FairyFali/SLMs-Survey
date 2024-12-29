@@ -34,7 +34,7 @@ If our survey is useful for your research, please kindly cite our [paper](https:
 
 | Model | #Params | Date | Paradigm | Domain | Code | HF Model | Paper/Blog |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |---- |
-| PhoneLM | 0.5B; 1.5B | 2024.11 | Pre-train | Generic | [Github](https://github.com/UbiquitousLearning/PhoneLM)  | [HF](https://huggingface.co/mllmTeam/PhoneLM-0.5B) | [Paper]([https://huggingface.co/papers/2411.05046](https://arxiv.org/abs/2411.05046)) |
+| PhoneLM | 0.5B; 1.5B | 2024.11 | Pre-train | Generic | [Github](https://github.com/UbiquitousLearning/PhoneLM)  | [HF](https://huggingface.co/mllmTeam/PhoneLM-0.5B) | [Paper](https://arxiv.org/abs/2411.05046) |
 | Llama 3.2 | 1B; 3B | 2024.9 | Pre-train | Generic | [Github](https://github.com/meta-llama/llama-models)  | [HF](https://huggingface.co/collections/meta-llama/llama-32-66f448ffc8c32f949b04c8cf) | [Blog](https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/) |
 | Qwen 1 | 1.8B; 7B; 14B; 72B | 2023.12 | Pre-train | Generic | [Github](https://github.com/QwenLM/Qwen) | [HF](https://huggingface.co/Qwen) | [Paper](https://arxiv.org/abs/2309.16609) |
 | Qwen 1.5 | 0.5B; 1.8B; 4B; 7B; 14B; 32B; 72B | 2024.2 | Pre-train | Generic | [Github](https://github.com/QwenLM/Qwen) | [HF](https://huggingface.co/Qwen) | [Paper](https://arxiv.org/abs/2309.16609) |
