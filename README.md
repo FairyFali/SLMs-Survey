@@ -8,6 +8,7 @@ This repo includes the papers discussed in our latest survey paper on small lang
 :book: Read the full paper here: [Paper Link](https://arxiv.org/abs/2411.03350)
 
 ## News
+* 2025/01/17: Give a talk to Amazon, [[Slides]](https://fairyfali.github.io/files/SLMs_Survey_Slides.pdf). 
 * 2024/12/28: The second version of our survey is on Arxiv!
 * 2024/11/04: The first version of our survey is on Arxiv!
 
