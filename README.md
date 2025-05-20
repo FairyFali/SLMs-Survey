@@ -8,9 +8,12 @@ This repo includes the papers discussed in our latest survey paper on small lang
 :book: Read the full paper here: [Paper Link](https://arxiv.org/abs/2411.03350)
 
 ## News
-* 2025/01/17: Give a talk to Amazon, [[Slides]](https://fairyfali.github.io/files/SLMs_Survey_Slides.pdf). 
-* 2024/12/28: The second version of our survey is on Arxiv!
-* 2024/11/04: The first version of our survey is on Arxiv!
+* **2025/05/06**: Our tutorial on SLMs has been accepted at KDD 2025.
+* **2025/04/27**: Gave a talk at the [WWW Workshop on LLMs for E-Commerce](https://llm4ecommerce.github.io/).
+* **2025/01/17**: Presented a talk at Amazon [[Slides]](https://fairyfali.github.io/files/SLMs_Survey_Slides.pdf).
+* **2024/12/28**: The second version of our SLM survey is now available on arXiv.
+* **2024/11/04**: Released the first version of our SLM survey on arXiv.
+
 
 ## Reference
 If our survey is useful for your research, please kindly cite our [paper](https://arxiv.org/abs/2411.03350):
