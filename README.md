@@ -8,7 +8,7 @@ This repo includes the papers discussed in our latest survey paper on small lang
 :book: Read the full paper here: [Paper Link](https://arxiv.org/abs/2411.03350)
 
 ## News
-* **2025/05/06**: Our tutorial on SLMs has been accepted at KDD 2025.
+* **2025/05/06**: Our tutorial on SLMs has been accepted at KDD 2025 [[Website]](https://fairyfali.github.io/kdd2025-tutorial/).
 * **2025/04/27**: Gave a talk at the [WWW Workshop on LLMs for E-Commerce](https://llm4ecommerce.github.io/).
 * **2025/01/17**: Presented a talk at Amazon [[Slides]](https://fairyfali.github.io/files/SLMs_Survey_Slides.pdf).
 * **2024/12/28**: The second version of our SLM survey is now available on arXiv.
@@ -38,6 +38,9 @@ If our survey is useful for your research, please kindly cite our [paper](https:
 
 | Model | #Params | Date | Paradigm | Domain | Code | HF Model | Paper/Blog |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |---- |
+| SmolLM-3 | 3B | 2025.7 | Pre-train | Generic |  [Github](https://github.com/huggingface/smollm) | [HF](https://huggingface.co/HuggingFaceTB/SmolLM3-3B-Base) | [Blog](https://huggingface.co/blog/smollm3) |
+| Phi-4-Mini | 3.8B | 2025.3 | Pre-train | Generic |   | [HF](https://huggingface.co/microsoft/Phi-4-mini-instruct) | [Paper](https://arxiv.org/abs/2503.01743) |
+| SmolLM-2 | 135M, 360M, 1.7B | 2025.2 | Pre-train | Generic |  [Github](https://github.com/huggingface/smollm) | [HF](https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct) | [Paper](https://arxiv.org/abs/2502.02737) |
 | PhoneLM | 0.5B; 1.5B | 2024.11 | Pre-train | Generic | [Github](https://github.com/UbiquitousLearning/PhoneLM)  | [HF](https://huggingface.co/mllmTeam/PhoneLM-0.5B) | [Paper](https://arxiv.org/abs/2411.05046) |
 | Llama 3.2 | 1B; 3B | 2024.9 | Pre-train | Generic | [Github](https://github.com/meta-llama/llama-models)  | [HF](https://huggingface.co/collections/meta-llama/llama-32-66f448ffc8c32f949b04c8cf) | [Blog](https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/) |
 | Qwen 1 | 1.8B; 7B; 14B; 72B | 2023.12 | Pre-train | Generic | [Github](https://github.com/QwenLM/Qwen) | [HF](https://huggingface.co/Qwen) | [Paper](https://arxiv.org/abs/2309.16609) |
@@ -117,6 +120,8 @@ If our survey is useful for your research, please kindly cite our [paper](https:
 3. Mamba 2: **Transformers are SSMs: Generalized models and efficient algorithms through structured state space duality.** *Tri Dao and Albert Gu*. ICML 2024. [[Paper]](https://openreview.net/forum?id=ztn8FCR1td) [[Code]](https://github.com/state-spaces/mamba)
 4. **Hymba: A Hybrid-head Architecture for Small Language Models.** *Xin Dong, Yonggan Fu, Shizhe Diao, Wonmin Byeon, Zijia Chen, Ameya Sunil Mahabaleshwarkar, Shih-Yang Liu, Matthijs Van Keirsbilck, Min-Hung Chen, Yoshi Suhara, Yingyan Lin, Jan Kautz, Pavlo Molchanov*. arXiv 2024.11. [[Paper]](https://arxiv.org/abs/2411.13676) [[HF]](https://huggingface.co/nvidia/Hymba-1.5B-Base)
 5. **xLSTM: Extended Long Short-Term Memory.** *Maximilian Beck, Korbinian Pöppel, Markus Spanring, Andreas Auer, Oleksandra Prudnikova, Michael Kopp, Günter Klambauer, Johannes Brandstetter, Sepp Hochreiter*. arXiv 2024.12. [[Paper]](https://arxiv.org/abs/2405.04517) [[Code]](https://github.com/NX-AI/xlstm)
+6. **RWKV: Reinventing RNNs for the Transformer Era** _Bo Peng, Eric Alcaide, Quentin Anthony, Alon Albalak, Samuel Arcadinho, Stella Biderman, Huanqi Cao, Xin Cheng, Michael Chung, Matteo Grella, Kranthi Kiran GV, Xuzheng He, Haowen Hou, Jiaju Lin, Przemyslaw Kazienko, Jan Kocon, Jiaming Kong, Bartlomiej Koptyra, Hayden Lau, Krishna Sri Ipsit Mantri, Ferdinand Mom, Atsushi Saito, Guangyu Song, Xiangru Tang, Bolun Wang, Johan S. Wind, Stanislaw Wozniak, Ruichong Zhang, Zhenyuan Zhang, Qihang Zhao, Peng Zhou, Qinghua Zhou, Jian Zhu, Rui-Jie Zhu_ [[Paper]](https://arxiv.org/abs/2305.13048) [[Code]](https://github.com/BlinkDL/RWKV-LM)
+7. **Liquid: Language Models are Scalable and Unified Multi-modal Generators** _Junfeng Wu, Yi Jiang, Chuofan Ma, Yuliang Liu, Hengshuang Zhao, Zehuan Yuan, Song Bai, Xiang Bai_ [[Paper]](https://arxiv.org/abs/2412.04332) [[Code]](https://github.com/FoundationVision/Liquid)
 
 
 
@@ -143,6 +148,11 @@ If our survey is useful for your research, please kindly cite our [paper](https:
 8. <u>MobileBERT</u>: **"MobileBERT: a Compact Task-Agnostic BERT for Resource-Limited Devices"**. *Zhiqing Sun, Hongkun Yu, Xiaodan Song, Renjie Liu, Yiming Yang, Denny Zhou.* ACL 2020. [[Paper](https://arxiv.org/abs/2004.02984)] [[Github](https://github.com/google-research/google-research/tree/master/mobilebert)] [[HuggingFace](https://huggingface.co/docs/transformers/en/model_doc/mobilebert)]
 9. **Language models are unsupervised multitask learners.** *Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, Ilya Sutskever.* OpenAI Blog, 2019. [[Paper]](https://insightcivic.s3.us-east-1.amazonaws.com/language-models.pdf)
 
+
+#### Test-time Scaling
+1. Scaling LLM Test-Time Compute Optimally Can be More Effective than Scaling Parameters for Reasoning.
+2. Scaling Inference Computation: Compute-Optimal Inference for ProblemSolving with Language Models
+3. Can 1B LLM Surpass 405B LLM? Rethinking ComputeOptimal Test-Time Scaling
 
 #### Data quality in KD
 
@@ -260,6 +270,8 @@ If our survey is useful for your research, please kindly cite our [paper](https:
 3. **The Internal State of an LLM Knows When It’s Lying.** *Amos Azaria, Tom Mitchell*. EMNLP 2023 Findings. [[pdf]](https://aclanthology.org/2023.findings-emnlp.68/)
 4. **Small agent can also rock! empowering small language models as hallucination detector.** _Xiaoxue Cheng, Junyi Li, Wayne Xin Zhao, Hongzhi Zhang, Fuzheng Zhang, Di Zhang, Kun Gai, Ji-Rong Wen._ EMNLP 2024 Long. [[pdf]](https://aclanthology.org/2024.emnlp-main.809/)
 5. **Reconfidencing llms from the grouping loss perspective.** _Lihu Chen, Alexandre Perez-Lebel, Fabian M. Suchanek, Gaël Varoquaux._ EMNLP 2024 Findings. [[pdf]](https://aclanthology.org/2024.findings-emnlp.85/)
+6. Weijia Xu, Sweta Agrawal, Eleftheria Briakou, Marianna Martindale, and Marine Carpuat. 2023. Understanding and Detecting Hallucinations in Neural Machine Translation via Model Introspection. Transactions of the Association for Computational Linguistics 11 (2023), 546–564.
+
 
 #### SLMs for LLM RAG
 
@@ -293,10 +305,24 @@ If our survey is useful for your research, please kindly cite our [paper](https:
 4. _Yongheng Deng, Ziqing Qiao, Ju Ren, Yang Liu, and Yaoxue Zhang._ 2023. **Mutual enhancement of large and small language models with cross-silo knowledge transfer.** arXiv 2023. [[pdf]](https://arxiv.org/abs/2312.05842)
 5. **SmallToLarge (S2L): Scalable Data Selection for Fine-tuning Large Language Models by Summarizing Training Trajectories of Small Models.** _Yu Yang · Siddhartha Mishra · Jeffrey Chiang · Baharan Mirzasoleiman._ NIPS 2024 Poster. [[pdf]](https://neurips.cc/virtual/2024/poster/95679)
 6. **Weak-to-Strong Search: Align Large Language Models via Searching over Small Language Models.** _Zhanhui Zhou · Zhixuan Liu · Jie Liu · Zhichen Dong · Chao Yang · Yu Qiao._ NIPS 2024 Poster. [[pdf]](https://neurips.cc/virtual/2024/poster/94341)
+7. Collin Burns, Pavel Izmailov, Jan Hendrik Kirchner, Bowen Baker, Leo Gao,Le opold Aschenbrenner, Yining Chen, Adrien Ecoffet, Manas Joglekar, Jan Leike, et al. 2024. Weak-to-strong generalization: eliciting strong capabilities with weak supervision. In Proceedings of the 41st International Conference on Machine Learning. 4971–5012.
+8. Ming Li, Yong Zhang, Shwai He, Zhitao Li, Hongyu Zhao, Jianzong Wang, Ning Cheng, and Tianyi Zhou. 2024. Superfiltering: Weak-to-Strong Data Filtering for Fast Instruction-Tuning. In Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 14255–14273.
+9. Yuqing Yang, Yan Ma, and Pengfei Liu. 2024. Weak-to-Strong Reasoning. In Findings of the Association for Computational Linguistics: EMNLP 2024. 8350–8367.
+10. Shaokun Zhang, Xiaobo Xia, Zhaoqing Wang, Ling-Hao Chen, Jiale Liu, Qingyun Wu, and Tongliang Liu. 2024. IDEAL: Influence-Driven Selective Annotations Empower In-Context Learners in Large Language Models. In ICLR.
+11. Yucheng Zhou, Jianbing Shen, and Yu Cheng. 2024. Weak to strong generalization for large language models with multi-capabilities. In The Thirteenth International Conference on Learning Representations.
+12. Jun Zhang, Jue WANG, Huan Li, Lidan Shou, Ke Chen, Yang You, Guiming Xie, Xuejian Gong, and Kunlong Zhou. 2025. Train Small, Infer Large: MemoryEfficient LoRA Training for Large Language Models. In The Thirteenth International Conference on Learning Representations. https://openreview.net/forum?id=s7DkcgpRxL
+13. Shaokun Zhang, Jieyu Zhang, Jiale Liu, Linxin Song, Chi Wang, Ranjay Krishna, and Qingyun Wu. 2024. Training language model agents without modifying language models. arXiv e-prints (2024), arXiv–2402.
+
+#### SLMs for LLM decoding
+1. Ruizhe Shi, Yifang Chen, Yushi Hu, Alisa Liu, Hanna Hajishirzi, Noah A Smith, and Simon S Du. 2024. Decoding-time language model alignment with multiple objectives. Advances in Neural Information Processing Systems 37 (2024), 48875–48920.
+2. Xuandong Zhao, Xianjun Yang, Tianyu Pang, Chao Du, Lei Li, Yu-Xiang Wang, and William Yang Wang. 2024. Weak-to-Strong Jailbreaking on Large Language Models. In ICML 2024 Next Generation of AI Safety Workshop. https://openreview.net/forum?id=shrX5xIHCW
+3. James Y Huang, Wenxuan Zhou, Fei Wang, Fred Morstatter, Sheng Zhang, Hoifung Poon, and Muhao Chen. 2024. Offset unlearning for large language models. arXiv preprint arXiv:2404.11045 (2024).
 
 #### SLMs for LLM safety
 1. **Llama Guard: LLM-based Input-Output Safeguard for Human-AI Conversations.** _Meta_ arXiv 2024 [[pdf]](https://arxiv.org/abs/2312.06674)
 2. **SLM as Guardian: Pioneering AI Safety with Small Language Model.** _Ohjoon Kwon, Donghyeon Jeon, Nayoung Choi, Gyu-Hwung Cho, Hwiyeol Jo, Changbong Kim, Hyunwoo Lee, Inho Kang, Sun Kim, Taiwoo Park._ EMNLP 2024. [[pdf]](https://aclanthology.org/2024.emnlp-industry.99/)
+3. Mason Sawtell, Tula Masterman, Sandi Besen, and Jim Brown. 2024. Lightweight safety classification using pruned language models. arXiv preprint arXiv:2412.13435 (2024).
+4. Minjia Wang, Pingping Lin, Siqi Cai, Shengnan An, Shengjie Ma, Zeqi Lin, Congrui Huang, and Bixiong Xu. 2024. STAND-Guard: A Small Task-Adaptive Content Moderation Model. arXiv preprint arXiv:2411.05214 (2024).
 
 #### SLM for LLM Evaluation
 1. _Kun Zhao, Bohao Yang, Chen Tang, Chenghua Lin, and Liang Zhan_. 2024. **SLIDE: A Framework Integrating Small and Large Language Models for Open-Domain Dialogues Evaluation**. ACL 2024 Findings. [[pdf]](https://aclanthology.org/2024.findings-acl.911/)
