@@ -122,6 +122,8 @@ If our survey is useful for your research, please kindly cite our [paper](https:
 5. **xLSTM: Extended Long Short-Term Memory.** *Maximilian Beck, Korbinian Pöppel, Markus Spanring, Andreas Auer, Oleksandra Prudnikova, Michael Kopp, Günter Klambauer, Johannes Brandstetter, Sepp Hochreiter*. arXiv 2024.12. [[Paper]](https://arxiv.org/abs/2405.04517) [[Code]](https://github.com/NX-AI/xlstm)
 6. **RWKV: Reinventing RNNs for the Transformer Era** _Bo Peng, Eric Alcaide, Quentin Anthony, Alon Albalak, Samuel Arcadinho, Stella Biderman, Huanqi Cao, Xin Cheng, Michael Chung, Matteo Grella, Kranthi Kiran GV, Xuzheng He, Haowen Hou, Jiaju Lin, Przemyslaw Kazienko, Jan Kocon, Jiaming Kong, Bartlomiej Koptyra, Hayden Lau, Krishna Sri Ipsit Mantri, Ferdinand Mom, Atsushi Saito, Guangyu Song, Xiangru Tang, Bolun Wang, Johan S. Wind, Stanislaw Wozniak, Ruichong Zhang, Zhenyuan Zhang, Qihang Zhao, Peng Zhou, Qinghua Zhou, Jian Zhu, Rui-Jie Zhu_ [[Paper]](https://arxiv.org/abs/2305.13048) [[Code]](https://github.com/BlinkDL/RWKV-LM)
 7. **Liquid: Language Models are Scalable and Unified Multi-modal Generators** _Junfeng Wu, Yi Jiang, Chuofan Ma, Yuliang Liu, Hengshuang Zhao, Zehuan Yuan, Song Bai, Xiang Bai_ [[Paper]](https://arxiv.org/abs/2412.04332) [[Code]](https://github.com/FoundationVision/Liquid)
+8. **Mixture-of-Recursions: Learning Dynamic Recursive Depths for Adaptive Token-Level Computation** _Sangmin Bae, Yujin Kim, Reza Bayat, Sungnyun Kim, Jiyoun Ha, Tal Schuster, Adam Fisch, Hrayr Harutyunyan, Ziwei Ji, Aaron Courville, Se-Young Yun_ [[Paper]](https://arxiv.org/abs/2507.10524). arXiv 14 Jul 2025
+
 
 
 
