@@ -27,17 +27,19 @@ If our survey is useful for your research, please kindly cite our [survey paper]
 }
 ```
 ```
-@inproceedings{10.1145/3711896.3737869,
-author = {Han, Haoyu and Wang, Fali and Luo, Chen and Liu, Hui and Huang, Jing and Li, Zhen and Dai, Zhenwei and He, Qi and Sun, Yiwei and Yin, Dawei and Wang, Suhang and Tang, Jiliang and Pei, Jian and Tang, Xianfeng},
-title = {The 2nd Workshop on Large Language Models for E-Commerce},
+@inproceedings{10.1145/3711896.3736563,
+author = {Wang, Fali and Lin, Minhua and Ma, Yao and Liu, Hui and He, Qi and Tang, Xianfeng and Tang, Jiliang and Pei, Jian and Wang, Suhang},
+title = {A Survey on Small Language Models in the Era of Large Language Models: Architecture, Capabilities, and Trustworthiness},
 year = {2025},
 isbn = {9798400714542},
 publisher = {Association for Computing Machinery},
 address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3711896.3737869},
-doi = {10.1145/3711896.3737869},
-numpages = {2},
-keywords = {e-commerce, large language models (llms)},
+url = {https://doi.org/10.1145/3711896.3736563},
+doi = {10.1145/3711896.3736563},
+booktitle = {Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2},
+pages = {6173–6183},
+numpages = {11},
+keywords = {small language models, trustworthiness, weak-to-strong},
 location = {Toronto ON, Canada},
 series = {KDD '25}
 }
@@ -372,5 +374,6 @@ series = {KDD '25}
 ![Star History Chart](https://api.star-history.com/svg?repos=FairyFali/SLMs-Survey&type=Date)
 
 <!-- Insertion Template: 0. <u>Model</u>: **"Title"**. *Name et al.*  202X. [[Paper]()] [[Github]()] [[HuggingFace]()] -->
+
 
 
