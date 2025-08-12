@@ -27,7 +27,7 @@ If our survey is useful for your research, please kindly cite our [survey paper]
 }
 ```
 ```
-@inproceedings{10.1145/3711896.3736563,
+@inproceedings{wang2025slmtutorial,
 author = {Wang, Fali and Lin, Minhua and Ma, Yao and Liu, Hui and He, Qi and Tang, Xianfeng and Tang, Jiliang and Pei, Jian and Wang, Suhang},
 title = {A Survey on Small Language Models in the Era of Large Language Models: Architecture, Capabilities, and Trustworthiness},
 year = {2025},
@@ -374,6 +374,7 @@ series = {KDD '25}
 ![Star History Chart](https://api.star-history.com/svg?repos=FairyFali/SLMs-Survey&type=Date)
 
 <!-- Insertion Template: 0. <u>Model</u>: **"Title"**. *Name et al.*  202X. [[Paper]()] [[Github]()] [[HuggingFace]()] -->
+
 
 
 
