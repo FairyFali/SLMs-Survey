@@ -8,6 +8,7 @@ This repo includes the papers discussed in our latest survey paper on small lang
 :book: Read the full paper here: [Paper Link](https://arxiv.org/abs/2411.03350)
 
 ## News
+* **2025/08/02**  Organized a SLM Tutorial [[Link](https://fairyfali.github.io/kdd2025-tutorial/)]
 * **2025/05/06**: Our tutorial on SLMs has been accepted at KDD 2025 [[Website]](https://fairyfali.github.io/kdd2025-tutorial/).
 * **2025/04/27**: Gave a talk at the [WWW Workshop on LLMs for E-Commerce](https://llm4ecommerce.github.io/).
 * **2025/01/17**: Presented a talk at Amazon [[Slides]](https://fairyfali.github.io/files/SLMs_Survey_Slides.pdf).
@@ -16,13 +17,29 @@ This repo includes the papers discussed in our latest survey paper on small lang
 
 
 ## Reference
-If our survey is useful for your research, please kindly cite our [paper](https://arxiv.org/abs/2411.03350):
+If our survey is useful for your research, please kindly cite our [survey paper](https://arxiv.org/abs/2411.03350) and [tutorial paper](https://dl.acm.org/doi/abs/10.1145/3711896.3736563):
 ```
 @article{wang2024comprehensive,
   title={A Comprehensive Survey of Small Language Models in the Era of Large Language Models: Techniques, Enhancements, Applications, Collaboration with LLMs, and Trustworthiness},
   author={Wang, Fali and Zhang, Zhiwei and Zhang, Xianren and Wu, Zongyu and Mo, Tzuhao and Lu, Qiuhao and Wang, Wanjing and Li, Rui and Xu, Junjie and Tang, Xianfeng and others},
   journal={arXiv preprint arXiv:2411.03350},
   year={2024}
+}
+```
+```
+@inproceedings{10.1145/3711896.3737869,
+author = {Han, Haoyu and Wang, Fali and Luo, Chen and Liu, Hui and Huang, Jing and Li, Zhen and Dai, Zhenwei and He, Qi and Sun, Yiwei and Yin, Dawei and Wang, Suhang and Tang, Jiliang and Pei, Jian and Tang, Xianfeng},
+title = {The 2nd Workshop on Large Language Models for E-Commerce},
+year = {2025},
+isbn = {9798400714542},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3711896.3737869},
+doi = {10.1145/3711896.3737869},
+numpages = {2},
+keywords = {e-commerce, large language models (llms)},
+location = {Toronto ON, Canada},
+series = {KDD '25}
 }
 ```
 
@@ -355,4 +372,5 @@ If our survey is useful for your research, please kindly cite our [paper](https:
 ![Star History Chart](https://api.star-history.com/svg?repos=FairyFali/SLMs-Survey&type=Date)
 
 <!-- Insertion Template: 0. <u>Model</u>: **"Title"**. *Name et al.*  202X. [[Paper]()] [[Github]()] [[HuggingFace]()] -->
+
 
