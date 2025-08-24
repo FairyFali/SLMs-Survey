@@ -8,6 +8,7 @@ This repo includes the papers discussed in our latest survey paper on small lang
 :book: Read the full paper here: [Paper Link](https://arxiv.org/abs/2411.03350)
 
 ## News
+* **2025/08/24**: Our survey paper has been accepted for publication in the ACM TIST. 
 * **2025/08/02**: Organized a SLM Tutorial [[Link](https://fairyfali.github.io/kdd2025-tutorial/)]
 * **2025/05/06**: Our tutorial on SLMs has been accepted at KDD 2025 [[Website]](https://fairyfali.github.io/kdd2025-tutorial/).
 * **2025/04/27**: Gave a talk at the [WWW Workshop on LLMs for E-Commerce](https://llm4ecommerce.github.io/).
@@ -374,6 +375,7 @@ series = {KDD '25}
 ![Star History Chart](https://api.star-history.com/svg?repos=FairyFali/SLMs-Survey&type=Date)
 
 <!-- Insertion Template: 0. <u>Model</u>: **"Title"**. *Name et al.*  202X. [[Paper]()] [[Github]()] [[HuggingFace]()] -->
+
 
 
 
