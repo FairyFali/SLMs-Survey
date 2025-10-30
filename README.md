@@ -19,13 +19,21 @@ This repo includes the papers discussed in our latest survey paper on small lang
 
 
 ## Reference
-If our survey is useful for your research, please kindly cite our [survey paper](https://arxiv.org/abs/2411.03350) and [tutorial paper](https://dl.acm.org/doi/abs/10.1145/3711896.3736563):
+If our survey is useful for your research, please kindly cite our [survey paper](https://dl.acm.org/doi/abs/10.1145/3768165) and [tutorial paper](https://dl.acm.org/doi/abs/10.1145/3711896.3736563):
 ```
 @article{wang2024comprehensive,
-  title={A Comprehensive Survey of Small Language Models in the Era of Large Language Models: Techniques, Enhancements, Applications, Collaboration with LLMs, and Trustworthiness},
-  author={Wang, Fali and Zhang, Zhiwei and Zhang, Xianren and Wu, Zongyu and Mo, Tzuhao and Lu, Qiuhao and Wang, Wanjing and Li, Rui and Xu, Junjie and Tang, Xianfeng and others},
-  journal={arXiv preprint arXiv:2411.03350},
-  year={2024}
+author = {Wang, Fali and Zhang, Zhiwei and Zhang, Xianren and Wu, Zongyu and Mo, TzuHao and Lu, Qiuhao and Wang, Wanjing and Li, Rui and Xu, Junjie and Tang, Xianfeng and He, Qi and Ma, Yao and Huang, Ming and Wang, Suhang},
+title = {A Comprehensive Survey of Small Language Models in the Era of Large Language Models: Techniques, Enhancements, Applications, Collaboration with LLMs, and Trustworthiness},
+year = {2025},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+issn = {2157-6904},
+url = {https://doi.org/10.1145/3768165},
+doi = {10.1145/3768165},
+note = {Just Accepted},
+journal = {ACM Trans. Intell. Syst. Technol.},
+month = sep,
+keywords = {Small Language Models, On-Device LLMs, Domain-specific Models, Trustworthiness}
 }
 ```
 ```
@@ -376,6 +384,7 @@ series = {KDD '25}
 ![Star History Chart](https://api.star-history.com/svg?repos=FairyFali/SLMs-Survey&type=Date)
 
 <!-- Insertion Template: 0. <u>Model</u>: **"Title"**. *Name et al.*  202X. [[Paper]()] [[Github]()] [[HuggingFace]()] -->
+
 
 
 
