@@ -4,10 +4,11 @@
 
 
 ## A Comprehensive Survey of Small Language Models: Technology, On-Device Applications, Efficiency, Enhancements for LLMs, and Trustworthiness
-This repo includes the papers discussed in our latest survey paper on small language models.    
+This repo includes the papers discussed in our comprehensive survey paper on small language models.    
 :book: Read the full paper here: [Paper Link](https://arxiv.org/abs/2411.03350)
 
 ## News
+* **2025/10/14**: Our extended survey on SLM-LLM collaboration is released on arXiv [[Link](https://www.arxiv.org/abs/2510.13890)]
 * **2025/10/11**: Gave a talk at the NLP Reading Group@PSU.
 * **2025/08/24**: Our survey paper has been accepted for publication in the ACM TIST. 
 * **2025/08/02**: Organized a SLM Tutorial [[Link](https://fairyfali.github.io/kdd2025-tutorial/)]
@@ -15,7 +16,7 @@ This repo includes the papers discussed in our latest survey paper on small lang
 * **2025/04/27**: Gave a talk at the [WWW Workshop on LLMs for E-Commerce](https://llm4ecommerce.github.io/).
 * **2025/01/17**: Presented a talk at Amazon [[Slides]](https://fairyfali.github.io/files/SLMs_Survey_Slides.pdf).
 * **2024/12/28**: The second version of our SLM survey is now available on arXiv.
-* **2024/11/04**: Released the first version of our SLM survey on arXiv.
+* **2024/11/04**: Released the first version of our comprehensive SLM survey on arXiv.
 
 
 ## Reference
@@ -52,6 +53,17 @@ numpages = {11},
 keywords = {small language models, trustworthiness, weak-to-strong},
 location = {Toronto ON, Canada},
 series = {KDD '25}
+}
+```
+```
+@misc{wang2025surveycollaboratingsmalllarge,
+      title={A Survey on Collaborating Small and Large Language Models for Performance, Cost-effectiveness, Cloud-edge Privacy, and Trustworthiness}, 
+      author={Fali Wang and Jihai Chen and Shuhua Yang and Ali Al-Lawati and Linli Tang and Hui Liu and Suhang Wang},
+      year={2025},
+      eprint={2510.13890},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2510.13890}, 
 }
 ```
 
@@ -384,6 +396,7 @@ series = {KDD '25}
 ![Star History Chart](https://api.star-history.com/svg?repos=FairyFali/SLMs-Survey&type=Date)
 
 <!-- Insertion Template: 0. <u>Model</u>: **"Title"**. *Name et al.*  202X. [[Paper]()] [[Github]()] [[HuggingFace]()] -->
+
 
 
 
