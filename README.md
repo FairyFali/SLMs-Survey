@@ -390,6 +390,7 @@ series = {KDD '25}
 10. **Small LLMs Are Weak Tool Learners: A Multi-LLM Agent.** *Weizhou Shen, Chenliang Li, Hongzhan Chen, Ming Yan, Xiaojun Quan, Hehong Chen, Ji Zhang, Fei Huang.* EMNLP 2024 Main.  [[pdf]](https://aclanthology.org/2024.emnlp-main.929/) 
 11. **Synergizing Large Language Models and Pre-Trained Smaller Models for Conversational Intent Discovery.** *Jinggui Liang, Lizi Liao, Hao Fei, Jing Jiang.* ACL 2024 Findings.  [[pdf]](https://aclanthology.org/2024.findings-acl.840/) 
 12. **Improving Large Models with Small Models: Lower Costs and Better Performance.** *Dong Chen, Shuo Zhang, Yueting Zhuang, Siliang Tang, Qidong Liu, Hua Wang, Mingliang Xu.* arXiv 2024.6.  [[pdf]](https://arxiv.org/abs/2406.15471)
+13. **Empowering Edge Agents: A Systematic Analysis of Edge-Cloud Collaboration in LLM Agent Execution.** *Pengcheng Huang, Zhenghao Liu, Shixin Ren, Shi Yu, Sijia Yao, Yukun Yan, Chaojun Xiao, Maosong Sun.* arXiv 2026.10.  [[pdf]](https://arxiv.org/abs/2610.17816) [[code]](https://github.com/OpenBMB/EC2-Bench)
 
 ## Star History
 
